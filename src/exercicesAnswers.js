@@ -34,6 +34,7 @@ array.unshift('html','css');
 
   return array;
 }
+//pour ajouter au milieu du tableau on utilise la method splice("index de ce qu'on ajoute","nombre à supprimer","element à ajouter")
 
 //Exercice 7 : Supprimer le premier élément du tableau languages.', function() {
 let removeFirstElement = function (array) {
@@ -87,6 +88,6 @@ let sortArray = function (array) {
 
 //Exercice 14 : Transformer le tableau array en chaîne de caractères', function() {
 let returnString = function (array) {
-
-  return array.toString();
+  return array.join();
+  
 }
